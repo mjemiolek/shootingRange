@@ -1,0 +1,9 @@
+pl\strzelnicaview\WeaponAdderController.class
+pl\strzelnicaview\ClientMenuController.class
+pl\strzelnicaview\MainScreenController.class
+pl\strzelnicaview\WorkerMenuController.class
+pl\strzelnicaview\ReservationAdderController.class
+pl\strzelnicaview\WeaponDeleterController.class
+pl\strzelnicaview\App.class
+pl\strzelnicaview\ReservationShowController.class
+pl\strzelnicaview\MenuScreenController.class

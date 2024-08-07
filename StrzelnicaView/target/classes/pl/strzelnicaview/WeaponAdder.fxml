@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.strzelnicaview.WeaponAdderController">
+   <children>
+      <Label alignment="CENTER_RIGHT" layoutX="-21.0" layoutY="30.0" prefHeight="35.0" prefWidth="147.0" text="AR15">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="-21.0" layoutY="90.0" prefHeight="35.0" prefWidth="147.0" text="Barrett">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="-21.0" layoutY="150.0" prefHeight="35.0" prefWidth="147.0" text="Beretta">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="-21.0" layoutY="210.0" prefHeight="35.0" prefWidth="147.0" text="Colt">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="-23.0" layoutY="270.0" prefHeight="35.0" prefWidth="147.0" text="Glock">
+         <font>
+             <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="-21.0" layoutY="330.0" prefHeight="35.0" prefWidth="147.0" text="Kalashnikov">
+         <font>
+             <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="-21.0" layoutY="390.0" prefHeight="35.0" prefWidth="147.0" text="Remington">
+         <font>
+             <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="-21.0" layoutY="450.0" prefHeight="35.0" prefWidth="147.0" text="SVD">
+         <font>
+             <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="-21.0" layoutY="510.0" prefHeight="35.0" prefWidth="147.0" text="Saiga">
+         <font>
+             <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="AR15Check" layoutX="137.0" layoutY="39.0" mnemonicParsing="false" />
+      <CheckBox fx:id="BarrettCheck" layoutX="137.0" layoutY="99.0" mnemonicParsing="false" />
+      <CheckBox fx:id="ColtCheck" layoutX="137.0" layoutY="219.0" mnemonicParsing="false" />
+      <CheckBox fx:id="BerettaCheck" layoutX="137.0" layoutY="159.0" mnemonicParsing="false" />
+      <CheckBox fx:id="GlockCheck" layoutX="137.0" layoutY="279.0" mnemonicParsing="false" />
+      <CheckBox fx:id="RemingtonCheck" layoutX="137.0" layoutY="399.0" mnemonicParsing="false" />
+      <CheckBox fx:id="KalashnikovCheck" layoutX="137.0" layoutY="339.0" mnemonicParsing="false" />
+      <CheckBox fx:id="SVDCheck" layoutX="137.0" layoutY="459.0" mnemonicParsing="false" />
+      <CheckBox fx:id="SaigaCheck" layoutX="137.0" layoutY="519.0" mnemonicParsing="false" />
+      <Label alignment="CENTER_RIGHT" layoutX="168.0" layoutY="30.0" prefHeight="35.0" prefWidth="128.0" text="Silencer">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="AR15Silencer" layoutX="320.0" layoutY="39.0" mnemonicParsing="false" />
+      <Label alignment="CENTER_RIGHT" layoutX="168.0" layoutY="210.0" prefHeight="35.0" prefWidth="128.0" text="Silencer">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="168.0" layoutY="150.0" prefHeight="35.0" prefWidth="128.0" text="Silencer">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="166.0" layoutY="270.0" prefHeight="35.0" prefWidth="128.0" text="Silencer">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" layoutX="168.0" layoutY="330.0" prefHeight="35.0" prefWidth="128.0" text="Silencer">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="BerettaSilencer" layoutX="320.0" layoutY="159.0" mnemonicParsing="false" />
+      <CheckBox fx:id="ColtSilencer" layoutX="320.0" layoutY="219.0" mnemonicParsing="false" />
+      <CheckBox fx:id="GlockSilencer" layoutX="318.0" layoutY="279.0" mnemonicParsing="false" />
+      <CheckBox fx:id="KalashnikovSilencer" layoutX="320.0" layoutY="339.0" mnemonicParsing="false" />
+      <Label alignment="CENTER_RIGHT" layoutX="168.0" layoutY="90.0" prefHeight="35.0" prefWidth="128.0" text="SupportStand">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="BarrettSupportStand" layoutX="320.0" layoutY="99.0" mnemonicParsing="false" />
+      <Label alignment="CENTER_RIGHT" layoutX="168.0" layoutY="390.0" prefHeight="35.0" prefWidth="128.0" text="AmmoBelt">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="RemingtonAmmoBelt" layoutX="320.0" layoutY="399.0" mnemonicParsing="false" />
+      <Label alignment="CENTER_RIGHT" layoutX="168.0" layoutY="450.0" prefHeight="35.0" prefWidth="128.0" text="SupportStand">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="SVDSupportStand" layoutX="320.0" layoutY="459.0" mnemonicParsing="false" />
+      <Label alignment="CENTER_RIGHT" layoutX="168.0" layoutY="510.0" prefHeight="35.0" prefWidth="128.0" text="AmmoBelt">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="SaigaAmmoBelt" layoutX="320.0" layoutY="519.0" mnemonicParsing="false" />
+      <Label alignment="CENTER_RIGHT" layoutX="368.0" layoutY="30.0" prefHeight="35.0" prefWidth="128.0" text="OpticalSight">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="AR15OpticalSight" layoutX="519.0" layoutY="39.0" mnemonicParsing="false" />
+      <Label alignment="CENTER_RIGHT" layoutX="368.0" layoutY="90.0" prefHeight="35.0" prefWidth="128.0" text="MuzzleBreak">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="BarrettMuzzleBreak" layoutX="519.0" layoutY="99.0" mnemonicParsing="false" />
+      <Label alignment="CENTER_RIGHT" layoutX="368.0" layoutY="150.0" prefHeight="35.0" prefWidth="128.0" text="LaserSight">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="BerettaLaserSight" layoutX="519.0" layoutY="159.0" mnemonicParsing="false" />
+      <Label alignment="CENTER_RIGHT" layoutX="374.0" layoutY="211.0" prefHeight="35.0" prefWidth="128.0" text="Collimator">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="ColtColimator" layoutX="519.0" layoutY="220.0" mnemonicParsing="false" />
+      <Label alignment="CENTER_RIGHT" layoutX="364.0" layoutY="270.0" prefHeight="35.0" prefWidth="136.0" text="LongMagazine">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="GlockLongMagazine" layoutX="517.0" layoutY="279.0" mnemonicParsing="false" />
+      <Label alignment="CENTER_RIGHT" layoutX="541.0" layoutY="270.0" prefHeight="35.0" prefWidth="106.0" text="LaserSight">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="GlockLaserSight" layoutX="662.0" layoutY="279.0" mnemonicParsing="false" />
+      <Label alignment="CENTER_RIGHT" layoutX="370.0" layoutY="330.0" prefHeight="35.0" prefWidth="136.0" text="DrumMagazine">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="KalashnikovDrumMagazine" layoutX="519.0" layoutY="339.0" mnemonicParsing="false" />
+      <Label alignment="CENTER_RIGHT" layoutX="374.0" layoutY="390.0" prefHeight="35.0" prefWidth="128.0" text="Collimator">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="RemingtonCollimator" layoutX="519.0" layoutY="399.0" mnemonicParsing="false" />
+      <Label alignment="CENTER_RIGHT" layoutX="359.0" layoutY="510.0" prefHeight="35.0" prefWidth="147.0" text="BottomHandle">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="SaigaBottomHandle" layoutX="519.0" layoutY="519.0" mnemonicParsing="false" />
+      <Button layoutX="737.0" layoutY="561.0" mnemonicParsing="false" onAction="#ExitToMenu" prefHeight="25.0" prefWidth="49.0" text="Exit" />
+      <Label layoutX="22.0" layoutY="545.0" text="Serial Number:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="SaigaSN" layoutX="136.0" layoutY="545.0" prefHeight="25.0" prefWidth="173.0" />
+      <Button layoutX="318.0" layoutY="545.0" mnemonicParsing="false" onAction="#registerSaiga" text="Register" />
+      <Label layoutX="22.0" layoutY="485.0" text="Serial Number:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="SVDSN" layoutX="136.0" layoutY="485.0" prefHeight="25.0" prefWidth="173.0" />
+      <Button layoutX="318.0" layoutY="485.0" mnemonicParsing="false" onAction="#registerSVD" text="Register" />
+      <Label layoutX="22.0" layoutY="425.0" text="Serial Number:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="RemingtonSN" layoutX="136.0" layoutY="425.0" prefHeight="25.0" prefWidth="173.0" />
+      <Button layoutX="318.0" layoutY="425.0" mnemonicParsing="false" onAction="#registerRemington" text="Register" />
+      <Label layoutX="22.0" layoutY="365.0" text="Serial Number:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="KalashnikovSN" layoutX="136.0" layoutY="365.0" prefHeight="25.0" prefWidth="173.0" />
+      <Button layoutX="318.0" layoutY="365.0" mnemonicParsing="false" onAction="#registerKalashnikov" text="Register" />
+      <Label layoutX="20.0" layoutY="305.0" text="Serial Number:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="GlockSN" layoutX="134.0" layoutY="305.0" prefHeight="25.0" prefWidth="173.0" />
+      <Button layoutX="316.0" layoutY="305.0" mnemonicParsing="false" onAction="#registerGlock" text="Register" />
+      <Label layoutX="22.0" layoutY="245.0" text="Serial Number:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="ColtSN" layoutX="136.0" layoutY="245.0" prefHeight="25.0" prefWidth="173.0" />
+      <Button layoutX="318.0" layoutY="245.0" mnemonicParsing="false" onAction="#registerColt" text="Register" />
+      <Label layoutX="22.0" layoutY="185.0" text="Serial Number:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="BerettaSN" layoutX="136.0" layoutY="185.0" prefHeight="25.0" prefWidth="173.0" />
+      <Button layoutX="318.0" layoutY="185.0" mnemonicParsing="false" onAction="#registerBeretta" text="Register" />
+      <Label layoutX="22.0" layoutY="125.0" text="Serial Number:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="BarrettSN" layoutX="136.0" layoutY="125.0" prefHeight="25.0" prefWidth="173.0" />
+      <Button layoutX="318.0" layoutY="125.0" mnemonicParsing="false" onAction="#registerBarrett" text="Register" />
+      <Label layoutX="22.0" layoutY="65.0" text="Serial Number:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <TextField fx:id="AR15SN" layoutX="136.0" layoutY="65.0" prefHeight="25.0" prefWidth="173.0" />
+      <Button layoutX="318.0" layoutY="65.0" mnemonicParsing="false" onAction="#registerAR15" text="Register" />
+   </children>
+</Pane>
